@@ -1,0 +1,86 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: red;
+    height:580px;
+    position: relative;
+}
+
+
+
+.signs{
+    flex: 1 1 0%;
+    padding-right: 24px;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    align-items: center;
+}
+.signlink{
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+.signlink span{
+    padding: 6px 16px;
+    
+}
+.signlink2{
+   background-color: white;
+   color:rgb(73, 73, 73);
+   border-radius: 100px;
+   min-height: inherit;
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.content1{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -70px;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 16px;
+
+}
+.content2 h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    /* letter-spacing: -0.04ch; */
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12px;
+}
+.content3 a {
+    color:white;
+    text-decoration: inherit;
+}

@@ -1,0 +1,23 @@
+.row{
+    margin: 0 auto;
+}
+.imgalt2{
+    width:100%;
+    height: 350px;
+    object-fit: cover;
+}
+.background{
+    background: rgb(255, 240, 237);
+    width: 100%;
+    margin-top:-24px;
+}
+.buttondis{
+    border-radius: 1000px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+    background-color: rgb(235, 23, 0);
+    color: rgb(255, 255, 255);
+    padding:5px 12px;
+}
