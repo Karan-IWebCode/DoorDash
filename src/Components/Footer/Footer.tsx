@@ -166,7 +166,7 @@ export default function Footer() {
                     <a ><Span>Get DoorDash for Work</Span></a></div>
                 </div>
                 <div className="col-12 col-md-6 pt-4 text-center">
-                    <div>
+                    <div className='d-flex flex-column align-items-center'>
                         <a>
                             <Buttondiv> 
                                 <Buttonstyle>
